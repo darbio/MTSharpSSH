@@ -1,0 +1,88 @@
+<Combine fileversion="2.0">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Debug" />
+      <Entry build="True" name="DiffieHellman" configuration="Debug" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Debug" />
+      <Entry build="True" name="SecurityServices" configuration="Debug" />
+      <Entry build="True" name="SSHClient" configuration="Debug|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Release" />
+      <Entry build="True" name="DiffieHellman" configuration="Release" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Release" />
+      <Entry build="True" name="SecurityServices" configuration="Release" />
+      <Entry build="True" name="SSHClient" configuration="Release|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Debug|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Debug|x86" />
+      <Entry build="True" name="DiffieHellman" configuration="Debug|x86" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Debug|x86" />
+      <Entry build="True" name="SecurityServices" configuration="Debug|x86" />
+      <Entry build="True" name="SSHClient" configuration="Debug|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Release|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Release|x86" />
+      <Entry build="True" name="DiffieHellman" configuration="Release|x86" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Release|x86" />
+      <Entry build="True" name="SecurityServices" configuration="Release|x86" />
+      <Entry build="True" name="SSHClient" configuration="Release|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Debug|x64" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Debug|x64" />
+      <Entry build="True" name="DiffieHellman" configuration="Debug|x64" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Debug|x64" />
+      <Entry build="True" name="SecurityServices" configuration="Debug|x64" />
+      <Entry build="True" name="SSHClient" configuration="Debug|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Release|x64" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Release|x64" />
+      <Entry build="True" name="DiffieHellman" configuration="Release|x64" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Release|x64" />
+      <Entry build="True" name="SecurityServices" configuration="Release|x64" />
+      <Entry build="True" name="SSHClient" configuration="Release|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Debug|iPhoneSimulator" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Debug|iPhoneSimulator" />
+      <Entry build="True" name="DiffieHellman" configuration="Debug|iPhoneSimulator" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Debug|iPhoneSimulator" />
+      <Entry build="True" name="SecurityServices" configuration="Debug|iPhoneSimulator" />
+      <Entry build="True" name="SSHClient" configuration="Debug|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Release|iPhoneSimulator" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Release|iPhoneSimulator" />
+      <Entry build="True" name="DiffieHellman" configuration="Release|iPhoneSimulator" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Release|iPhoneSimulator" />
+      <Entry build="True" name="SecurityServices" configuration="Release|iPhoneSimulator" />
+      <Entry build="True" name="SSHClient" configuration="Release|iPhoneSimulator" />
+    </Configuration>
+    <Configuration name="Debug|iPhone" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Debug|iPhone" />
+      <Entry build="True" name="DiffieHellman" configuration="Debug|iPhone" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Debug|iPhone" />
+      <Entry build="True" name="SecurityServices" configuration="Debug|iPhone" />
+      <Entry build="True" name="SSHClient" configuration="Debug|iPhone" />
+    </Configuration>
+    <Configuration name="Release|iPhone" ctype="CombineConfiguration">
+      <Entry build="True" name="SharpSSH" configuration="Release|iPhone" />
+      <Entry build="True" name="DiffieHellman" configuration="Release|iPhone" />
+      <Entry build="True" name="Org.Mentalis.Security.Tools" configuration="Release|iPhone" />
+      <Entry build="True" name="SecurityServices" configuration="Release|iPhone" />
+      <Entry build="True" name="SSHClient" configuration="Release|iPhone" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="SharpSSH" single="True">
+    <Execute type="None" entry="SharpSSH" />
+    <Execute type="None" entry="DiffieHellman" />
+    <Execute type="None" entry="Org.Mentalis.Security.Tools" />
+    <Execute type="None" entry="SecurityServices" />
+    <Execute type="None" entry="SSHClient" />
+  </StartMode>
+  <Entries>
+    <Entry filename="SharpSSH.csproj" />
+    <Entry filename="../../DiffieHellman/DiffieHellman.csproj" />
+    <Entry filename="../../Org.Mentalis.Security.Tools/Org.Mentalis.Security.Tools.csproj" />
+    <Entry filename="../../SecurityServices-0.0.2/SecurityServices/SecurityServices.csproj" />
+    <Entry filename="SSHClient/SSHClient.csproj" />
+  </Entries>
+</Combine>

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSH", "SharpSSH\SharpSSH.csproj", "{08BC6EF5-FBA4-4F09-B9E8-5A7A19AA9F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffieHellman", "SharpSSH\DiffieHellman\DiffieHellman.csproj", "{1FF33841-5DE8-4EC1-8D4F-144F2AE864DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityServices", "SharpSSH\SecurityServices-0.0.2\SecurityServices\SecurityServices.csproj", "{DBD254C5-48D8-44E8-BB94-91E1328421DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.Mentalis.Security.Tools", "SharpSSH\Org.Mentalis.Security.Tools\Org.Mentalis.Security.Tools.csproj", "{1A859AC2-EA46-461B-AFDE-D9CCD7F44508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSHClient", "SharpSSH\SSHClient\SSHClient.csproj", "{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08BC6EF5-FBA4-4F09-B9E8-5A7A19AA9F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BC6EF5-FBA4-4F09-B9E8-5A7A19AA9F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BC6EF5-FBA4-4F09-B9E8-5A7A19AA9F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BC6EF5-FBA4-4F09-B9E8-5A7A19AA9F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A859AC2-EA46-461B-AFDE-D9CCD7F44508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A859AC2-EA46-461B-AFDE-D9CCD7F44508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A859AC2-EA46-461B-AFDE-D9CCD7F44508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A859AC2-EA46-461B-AFDE-D9CCD7F44508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF33841-5DE8-4EC1-8D4F-144F2AE864DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF33841-5DE8-4EC1-8D4F-144F2AE864DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF33841-5DE8-4EC1-8D4F-144F2AE864DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF33841-5DE8-4EC1-8D4F-144F2AE864DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|iPhone.Build.0 = Release|iPhone
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DAC6C406-DAF2-482C-8EB2-7235E9DC7C05}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DBD254C5-48D8-44E8-BB94-91E1328421DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD254C5-48D8-44E8-BB94-91E1328421DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD254C5-48D8-44E8-BB94-91E1328421DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD254C5-48D8-44E8-BB94-91E1328421DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SharpSSH\SSHClient\SSHClient.csproj
+	EndGlobalSection
+EndGlobal
